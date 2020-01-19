@@ -1,0 +1,47 @@
+dn: uid=borm,ou=People,dc=syt,dc=tgm,dc=ac,dc=at
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: borm
+sn: Borko
+givenName: Michael
+cn: MichaelBorko
+displayName: Michael Borko
+uidNumber: 10002
+gidNumber: 5001
+userPassword: bormldap
+gecos: Michael Borko
+loginShell: /bin/bash
+homeDirectory: /home/borm
+
+dn: uid=lwachter,ou=People,dc=syt,dc=tgm,dc=ac,dc=at
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: lwachter
+sn: Wachter
+givenName: Lisa
+cn: Lisa Wachter
+displayName: Lisa Wachter
+uidNumber: 10003
+gidNumber: 5000
+userPassword: lisaldap
+gecos: Lisa Wachter
+loginShell: /bin/bash
+homeDirectory: /home/lwachter
+
+dn: uid=mict,ou=People,dc=syt,dc=tgm,dc=ac,dc=at
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: mict
+sn: Micheler
+givenName: Thomas
+cn: Thomas Micheler
+displayName: Thomas Micheler
+uidNumber: 10004
+gidNumber: 5001
+userPassword: mictldap
+gecos: Thomas Micheler
+loginShell: /bin/bash
+homeDirectory: /home/mict

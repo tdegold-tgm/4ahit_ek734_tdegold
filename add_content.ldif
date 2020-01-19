@@ -1,0 +1,50 @@
+# Nodes
+dn: ou=People,dc=syt,dc=tgm,dc=ac,dc=at
+objectClass: organizationalUnit
+ou: People
+
+dn: ou=Groups,dc=syt,dc=tgm,dc=ac,dc=at
+objectClass: organizationalUnit
+ou: Groups
+# Groups
+dn: cn=students,ou=Groups,dc=syt,dc=tgm,dc=ac,dc=at
+objectClass: posixGroup
+cn: students
+gidNumber: 5000
+
+dn: cn=teachers,ou=Groups,dc=syt,dc=tgm,dc=ac,dc=at
+objectClass: posixGroup
+cn: teachers
+gidNumber: 5001
+# User tdegold (student)
+dn: uid=tdegold,ou=People,dc=syt,dc=tgm,dc=ac,dc=at
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: tdegold
+sn: Degold
+givenName: Tim
+cn: Tim Degold
+displayName: Tim Degold
+uidNumber: 10000
+gidNumber: 5000
+userPassword: timldap
+gecos: Tim Degold
+loginShell: /bin/bash
+homeDirectory: /home/tdegold
+# User vitl (teacher)
+dn: uid=vitl,ou=People,dc=syt,dc=tgm,dc=ac,dc=at
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: vitl
+sn: Vittori
+givenName: Lisa
+cn: Lisa Vittori
+displayName: Lisa Vittori
+uidNumber: 10001
+gidNumber: 5001
+userPassword: lisaldap
+gecos: Lisa Vittori
+loginShell: /bin/bash
+homeDirectory: /home/vitl
