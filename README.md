@@ -161,7 +161,7 @@ DirContext ctx = new InitialDirContext(env);
 
 ![](img/connect_to_server.png)
 
-Sollte dabei etwas schiefgehen, wird eine ``NamingException` geworfen. Zu Testzwecken habe ich das falsche Passwort, `rot` statt `root`, angegeben. Als Error-Code wird der LDAP-Fehler angegeben. 
+Sollte dabei etwas schiefgehen, wird eine `NamingException` geworfen. Zu Testzwecken habe ich das falsche Passwort, `rot` statt `root`, angegeben. Als Error-Code wird der LDAP-Fehler angegeben. 
 
 ![](img/naming_exception.png)
 
