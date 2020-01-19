@@ -5,7 +5,7 @@ import javax.naming.directory.*;
 import java.util.Hashtable;
 
 /**
- * Connect and bind to LDAP-Server and perform querys
+ * Connect and bind to LDAP-Server and perform queries
  * @author Tim Degold, 4AHIT
  * @version 19.1.2020
  * Übung: MICT | EK734
